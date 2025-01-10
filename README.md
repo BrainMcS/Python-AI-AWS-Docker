@@ -73,7 +73,7 @@ graph LR
     User["User"] --> ELB["Elastic Load Balancer (ELB)"]
     ELB --> EC2["EC2 Instances<br>(Dockerized Flask App)"]
     EC2 --> Redshift["Amazon Redshift"]
-    EC2 -. attached .- Datadog["Datadog Agent"]
+    Datadog["Datadog Agent"] -. attached .- EC2
     EC2 --> SecretsManager["AWS Secrets Manager"]
     ECR["Amazon ECR"] --> EC2
     SecretsManager --> EC2
