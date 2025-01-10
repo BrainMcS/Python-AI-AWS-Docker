@@ -80,4 +80,4 @@ graph LR
     style EC2 fill:yellow,stroke:black,stroke-width:2px
     style Redshift fill:red,stroke:black,stroke-width:2px
     style SecretsManager fill:black,stroke:white,stroke-width:2px
-    style ECR fill:orange,stroke:#888,stroke-width:2px
+    style ECR fill:orange,stroke:black,stroke-width:2px
