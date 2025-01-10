@@ -81,3 +81,4 @@ graph LR
     style Redshift fill:red,stroke:black,stroke-width:2px
     style SecretsManager fill:black,stroke:white,stroke-width:2px
     style ECR fill:orange,stroke:black,stroke-width:2px
+    style Datadog fill:purple,stroke:white,stroke-width:2px
