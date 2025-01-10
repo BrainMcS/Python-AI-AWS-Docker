@@ -77,9 +77,8 @@ graph LR
     EC2 --> Datadog["Datadog Agent"]
     EC2 --> SecretsManager["AWS Secrets Manager"]
     ECR["Amazon ECR"] --> EC2
-    Datadog --> Redshift
     SecretsManager --> EC2
-    style EC2 fill:#ccf,stroke:#888,stroke-width:2px
-    style Redshift fill:#fcc,stroke:#888,stroke-width:2px
-    style SecretsManager fill:#cfc,stroke:#888,stroke-width:2px
-    style ECR fill:#cff,stroke:#888,stroke-width:2px
+    style EC2 fill:yellow,stroke:black,stroke-width:2px
+    style Redshift fill:red,stroke:black,stroke-width:2px
+    style SecretsManager fill:black,stroke:white,stroke-width:2px
+    style ECR fill:orange,stroke:#888,stroke-width:2px
